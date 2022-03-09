@@ -5,6 +5,7 @@
 
 $corElementos: #4e4e4e;
 $corCard: #ffffff;
+$corBotao: #a81c1c;
 
 @mixin container() {
     margin: auto;
@@ -21,13 +22,23 @@ $corCard: #ffffff;
 
 @mixin botao() {
     margin-top: 12px;
-    padding: 12px 18px;
+    padding: 12px 12px;
     border-radius: 2px;
-    background-color: rgb(168, 28, 28);
+    background-color: $corBotao;
     color: $corCard;
     font-weight: bold;
+    font-size: 15px;
     border: none;
     margin: 4px;
+
+  &:hover{
+    background-color: #681212;
+    cursor: pointer;
+  }
+
+  &:active{
+    background-color: #383838;
+  }
 }
 
   body {
