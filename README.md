@@ -13,7 +13,7 @@
 </h3>
 
 <h4 align = "center">
-	Conversor de moedas - Versão 1.3 ✅
+	Conversor de moedas - Versão 1.4 ✅
 </h4>
 <br>
 <h3 align = "center">

@@ -14,7 +14,6 @@ body {
 
 .container {
   margin: auto;
-  background-color: #ffffff;
   text-align: center;
   padding: 20px;
   width: 300px;
@@ -22,8 +21,6 @@ body {
   margin-top: 5vw;
   min-height: 420px;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.096);
-          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.096);
 }
 
 .page-title {
@@ -55,20 +52,31 @@ input {
   font-weight: bold;
 }
 
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  margin-top: 12px;
+  -moz-appearance: textfield;
+}
+
 label {
   color: #4e4e4e;
+  margin-bottom: 20px;
 }
 
 button {
   margin-top: 12px;
   padding: 12px 12px;
-  border-radius: 2px;
+  border-radius: 8px;
   background-color: #a81c1c;
   color: #ffffff;
   font-weight: bold;
   font-size: 15px;
   border: none;
   margin: 4px;
+  margin-top: 15px;
 }
 
 button:hover {
