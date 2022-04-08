@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src ="conversor_readme.png" alt = "mockup" />
+  <img src ="conv_readme.png" alt = "mockup" />
 </p>
 
 <br>
@@ -13,7 +13,7 @@
 </h3>
 
 <h4 align = "center">
-	Conversor de moedas - versão 1.5 ✅
+	Conversor de moedas - versão 1.6 ✅
 </h4>
 <br>
 <h3 align = "center">
